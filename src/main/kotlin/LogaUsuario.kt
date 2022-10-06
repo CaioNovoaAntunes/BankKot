@@ -3,7 +3,7 @@
 
      override fun logarComoPessoa(usuario: String, senha: String) {
          if (pessoa.email != usuario || pessoa.senha != senha){
-             println("deu bom")
+             println("deu ruim")
          }else{
              println("deu bom")
          }
