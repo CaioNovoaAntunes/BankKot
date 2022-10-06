@@ -1,6 +1,9 @@
-class Funcionario(nome: String, numero: Int, validade: Int, salario: Double) : Pessoa(nome, numero, validade,
+class Funcionario(nome: String, numero: Int, validade: Int, salario: Double, var senha: String, var email: String) : Pessoa(nome, numero, validade,
     salario
 ), plrCalc {
+
+
+
     override fun calculaSalario(outroSalario:Double) = if (outroSalario <= 0.0){
         println("Não pode fazer isso")
     }else{
