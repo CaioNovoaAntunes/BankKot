@@ -1,6 +1,6 @@
 class Funcionario(nome: String, numero: Int, validade: Int, salario: Double, var senha: String, var email: String) : Pessoa(nome, numero, validade,
     salario
-), plrCalc {
+), PlrCalc {
 
 
 

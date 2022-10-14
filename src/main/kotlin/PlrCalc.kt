@@ -1,3 +1,3 @@
-interface plrCalc {
+interface PlrCalc {
     fun calcPlr(salario: Double)
 }

@@ -14,7 +14,7 @@ fun main(){
 
    val logaUsuario:LogaUsuario = LogaUsuario(caio)
 
-   logaUsuario.logarComoPessoa("caio@cai", "123")
+   logaUsuario.logarComoPessoa("caio@caio", "123")
    }
 
 
